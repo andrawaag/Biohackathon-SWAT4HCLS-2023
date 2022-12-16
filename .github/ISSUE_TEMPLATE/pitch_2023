@@ -1,0 +1,39 @@
+name: Pitch proposal 2020
+description: File a pitch proposal
+title: "[Pitch]: "
+labels: ["2023", "pitch"]
+assignees:
+  - andrawaag
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to propose a hackathon pitch!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Short title
+      description: Short title concisely describing your pitch
+      placeholder: Tell us what you see!
+      value: "Solving ....."
+    validations:
+      required: true
+  - type: textarea
+    id: project idea
+    attributes:
+    label: Pitch
+    description: Please describe as detailed as possible would you would like to achieve.
+  - type: textarea
+    id: needs
+    attributes:
+    label: Expertice needed
+    description: What help can you use? What expertise are you looking for?
+      
