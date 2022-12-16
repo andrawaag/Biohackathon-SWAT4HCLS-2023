@@ -29,10 +29,10 @@ body:
   - type: textarea
     id: project idea
     attributes:
-    label: Pitch
-    description: Please describe as detailed as possible would you would like to achieve.
+      label: Pitch
+      description: Please describe as detailed as possible would you would like to achieve.
   - type: textarea
     id: needs
     attributes:
-    label: Expertice needed
-    description: What help can you use? What expertise are you looking for?
+      label: Expertice needed
+      description: What help can you use? What expertise are you looking for?
