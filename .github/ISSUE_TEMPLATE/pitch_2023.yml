@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: project idea
+    id: projectidea
     attributes:
       label: Pitch
       description: Please describe as detailed as possible would you would like to achieve.
